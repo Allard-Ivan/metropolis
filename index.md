@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 这是我第一个托管在 Github 上的网站
 
 You can use the [editor on GitHub](https://github.com/Allard-Ivan/metropolis/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
