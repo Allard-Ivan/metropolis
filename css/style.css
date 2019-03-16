@@ -1,3 +1,103 @@
-p {
-    background-color: orange;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(../image/food.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.lol p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.first {
+    animation: gradient-up 5s infinite linear;
+}
+
+.second {
+    animation: gradient-down 5s infinite linear;
+}
+
+.season p {
+    position: absolute;
+    font-size: 48px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+}
+
+#spring {
+    animation: gradient-spring 6s linear infinite;
+    background: rgb(32, 190, 32);
+}
+
+#summer {
+    animation: gradient-summer 6s linear infinite;
+    background: rgb(224, 48, 48);
+}
+
+#autumn {
+    animation: gradient-autumn 6s linear infinite;
+    background: orange;
+}
+
+#winter {
+    animation: gradient-winter 6s linear infinite;
+    background: rgb(236, 224, 224);
+}
+
+@keyframes gradient-spring {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes gradient-summer {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes gradient-autumn {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    60% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes gradient-winter {
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes gradient-up {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes gradient-down {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
 }
